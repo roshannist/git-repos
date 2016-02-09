@@ -6,13 +6,11 @@ include('tophead.php'); ?>
 <form action="newselect.php" method="post">
 <font color="blue">  STATENAME </FONT> <select name="STATENAME">
   <option value="">--</option>
- <option value="STATENAME">name</option>
+ <option value="Andhra Prades">Andhra Prades</option>
   <option value="1">mohit</option>
   <option value="mohit">mohit</option>
   <option value="arjun">arjun</option>
-  <option value="ros">ros</option>
-  <option value="ros">rahul</option>
-  <option value="param">param</option>
+  
 
 </select>
 &nbsp;
@@ -20,7 +18,7 @@ include('tophead.php'); ?>
 
 <font color="blue"> DISTNAME </FONT> <select name="DISTNAME">
   <option value="">--</option>
-  <option value="Medak">Medak</option>
+  <option value="Anantpur">Anantpur</option>
   <option value="Andhra Prades">Andhra Prades</option>
   <option value="hp">hp</option>
   <option value="jp">jp</option>
@@ -33,7 +31,7 @@ include('tophead.php'); ?>
 
 <font color="blue">STATUSCD </font> <select name="STATUSCD">
   <option value="">--</option>
-  <option value="4">4</option>
+  <option value="1">1</option>
   <option value="2006">2006</option>
   <option value="2007">2007</option>
   <option value="2008">2008</option>
@@ -48,7 +46,7 @@ include('tophead.php'); ?>
 
 <font color="orange"> OWNERSHIP	 </font><select name="OWNERSHIP">
   <option value="">--</option>
- <option value="  SOUTH ANDA">  SOUTH ANDA</option>
+ <option value="Public Ltd"> Public Ltd</option>
   <option value="Medak">Medak</option>
   <option value="2007">2007</option>
   <option value="2008">2008</option>
@@ -62,7 +60,7 @@ include('tophead.php'); ?>
 
 <font color="orange"> NEW_MACH_INNO </font><select name="NEW_MACH_INNO">
   <option value="">--</option>
-  <option value="VIJAY ELECTRICALS LTD. UNIT-XVI">VIJAY ELECTRICALS LTD. UNIT-XVI</option>
+  <option value="New machines">New machines</option>
   <option value="2006">2006</option>
   <option value="2007">2007</option>
   <option value="2008">2008</option>
@@ -90,8 +88,8 @@ include('tophead.php'); ?>
 &nbsp;
 
 <font cloor="orange">PLACE</font><select name="place">
-  <option value="">--</option>
- <option value="2005">2005</option>
+  <option value="">--</option>hio
+ <option value="ANANTAPUR">ANANTAPUR</option>
   <option value="2006">2006</option>
   <option value="2007">2007</option>
   <option value="2008">2008</option>

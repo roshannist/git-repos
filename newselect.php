@@ -46,7 +46,7 @@ $condition = 'NEW_MACH_INNO="'.$_POST['NEW_MACH_INNO'].'" or';
   // echo $sql = 'SELECT rslno,statename,distcode,distname,name,address FROM wel where '.$condition. ' 1=1';
    echo $sql = 'SELECT COUNT( STATENAME ) 
 FROM wel WHERE STATENAME =  'Andhra Prades'
-AND DISTNAME =  'Medak' and STATUSCD=1 and OWNERSHIP='Private Ltd' and NEW_MACH_INNO=' New machines'; 
+or DISTNAME =  'Medak' or STATUSCD=1 or OWNERSHIP='Private Ltd' or NEW_MACH_INNO=' New machines'; 
 
    mysql_select_db('wel');
   $retval = mysql_query( $sql, $conn );
